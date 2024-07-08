@@ -1,0 +1,40 @@
+/* DragDropIcons.module.css */
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .iconsContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .dropZoneContainer {
+    width: 100%;
+    height: 150px;
+    border: 2px dashed black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s;
+    flex-wrap: wrap;
+  }
+  
+  .dropZoneActive {
+    background-color: lightgreen;
+  }
+  
+  .icon {
+    margin: 10px;
+    cursor: grab;
+    transition: opacity 0.3s;
+  }
+  
+  .iconDragging {
+    opacity: 0.5;
+  }
+  

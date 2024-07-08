@@ -1,0 +1,11 @@
+/* App.css */
+.App {
+  margin: 8rem auto 0 8rem; /* Margin top and left */
+  max-width: 1200px; /* Adjust this value based on your preferred content width */
+  padding: 0 1rem; /* Optional: Add padding inside the container */
+}
+
+/* Additional styles for page content */
+.page-content {
+  margin-top: 4rem; /* To avoid content being hidden behind fixed navbar */
+}
